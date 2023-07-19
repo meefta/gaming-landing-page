@@ -8,6 +8,31 @@
     margin: 0px;
     padding: 0px;
 }
+.section-title{
+    color: #0B0223;
+    text-align: center;
+     font-size: 3rem;
+    font-weight: 600;
+    /* width: 348px; */
+}
+.section-description{
+    color: #534C64;
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+.btn-primary{
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
 
 
 
@@ -16,11 +41,11 @@
 
 header{
     background: #FFF;
-    margin: 30px 230px;
+     margin: 50px ; 
 }
 .logo{
     display: flex;
-    margin: 40px 20px;
+    margin: 30px 20px;
     align-items: center;
 }
 .logo img{
@@ -60,4 +85,120 @@ header{
 }
 .fa-tiktok{
     margin-left: 15px;
+}
+/* banner section */
+.banner-content{
+    max-width: 900px;
+    /* background-image: url(../images/Group\ 14.png); */
+}
+.banner{
+    max-width:1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.goat{
+    width: 500px;
+     font-size: 5.93rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner span{
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+.btn-2{
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+   font-size: 1.25rem;
+   font-weight: 600;
+   border: none;
+}
+/* main style */
+main{
+    max-width: 1920px;
+    margin: 100px 200px;
+}
+#Only{
+    text-align: start;
+}
+#online{
+    text-align: center;
+}
+.card{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .nav-container,.menus>ul,.banner{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .menus>ul{
+        gap: 30px;
+    }
+    .follow{
+        width: 200px;
+        padding: 20px;
+    }
+    .menus{
+        text-align: center;
+    }
+    .goat{
+        font-size: 4rem;
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .banner{
+        margin-top: 50px;
+        align-items: flex-start;
+    }
+    .section-title{
+        font-size: 2rem;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .banner-img img{
+        width:100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .section-description{
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .btn-primary{
+        margin-top: 30px;
+    }
+
+
+    
 }

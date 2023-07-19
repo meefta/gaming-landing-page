@@ -315,7 +315,7 @@ font-weight: 500;
 
 @media screen and (max-width:576px) {
 
-    .nav-container,.menus>ul,.banner,.card-container,.features{
+    .nav-container,.menus>ul,.banner,.card-container,.features,.nav,.nav>ul{
         flex-direction: column;
         margin-left: 0px;
     }
@@ -415,5 +415,17 @@ font-weight: 500;
     }
      .ex-icon{
         max-width: 700px;
+     }
+     footer{
+        /* max-width: 500px; */
+        height: 900px;
+     }
+     .nav li{
+        margin-top: 10px;
+        justify-content: center;
+     }
+     .but li{
+        margin-left: 10px;
+        /* padding-left: 5px; */
      }
     }

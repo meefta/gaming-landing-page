@@ -219,6 +219,79 @@ main{
 .game-icon:hover p{
     color: #FF42A5;
 }
+#ID{
+    align-items: start;
+    justify-content: center;
+    /* height: 600px; */
+    padding-top: 120px;
+
+}
+ .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .nav>ul{
+    display: flex;
+ }
+ .nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+ }
+ .nav li a{
+    text-decoration: none;
+    color:#F948B2;
+ }
+ footer{
+    height: 600px;
+    background-color: #0B0223;;
+ }
+ .last{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 20px;
+ }
+ .last img{
+    margin: 10px;
+ }
+
+ .but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .but>ul{
+    display: flex;
+ }
+ .but li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+ .but li a{
+    text-decoration: none;
+    color: #FFF;
+ }
+ .text-gray{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+
+ }
+ .not-least{
+    margin-top: 40px;
+ }
+ 
+
+
 
 
 
@@ -339,8 +412,8 @@ main{
         width: 150px;
         height:50px;
         cursor: pointer;
-    
-}
-.ex-icon{
-    max-width: 700px
-}
+    }
+     .ex-icon{
+        max-width: 700px;
+     }
+    }
